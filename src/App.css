@@ -3,10 +3,19 @@
   padding: 0;
   margin: 0;
 }
+
+:root {
+  --primary-color: #0699a6;
+  --secondary-color: #9e8c6c;
+  --font-color: #000000;
+
+  --secondary-color-100: rgba(157, 139, 108, 0.1);
+}
+
 .header {
   width: 100%;
   height: 647px;
-  background-color: rgba(157, 139, 108, 0.1);
+  background-color: var(--secondary-color-100);
 }
 
 .header-wrapper {
@@ -25,7 +34,7 @@
 
 .name {
   width: 635px;
-  color: black;
+  color: var(--font-color);
   font-size: 126px;
   line-height: 112px;
   text-align: center;
@@ -38,7 +47,7 @@
 .header-triangle {
   width: 100%;
   height: 100px;
-  border-left: 1920px solid rgba(157, 139, 108, 0.1);
+  border-left: 1920px solid var(--secondary-color-100);
   border-bottom: 100px solid transparent;
 }
 
@@ -48,7 +57,6 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* background-color: rgba(137, 207, 235, 0.2);*/
 }
 
 .leftcontent {
@@ -69,19 +77,63 @@
 .footer-triangle {
   width: 100%;
   height: 100px;
-  border-right: 1920px solid rgba(157, 139, 108, 0.1);
+  border-right: 1920px solid var(--secondary-color-100);
   border-top: 100px solid transparent;
 }
 .footer {
   height: 547px;
-  background-color: rgba(157, 139, 108, 0.1);
+  background-color: var(--secondary-color-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-wrapper {
+  height: 258px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-me {
+  color: var(--font-color);
+  font-size: 66px;
+  line-height: 82px;
+  text-align: center;
+}
+
+.contact-me-me {
+  font-weight: bolder;
+}
+
+.email {
+  color: var(--primary-color);
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+}
+
+.icon-wrapper {
+  width: 243px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+}
+
+a {
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 1440px) {
   .name {
     width: 100%;
     padding-left: 75px;
-    color: black;
+    color: var(--font-color);
     font-size: 126px;
     line-height: 112px;
     text-align: center;
