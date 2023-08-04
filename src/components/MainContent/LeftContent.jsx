@@ -1,7 +1,13 @@
+import SkillSet from "./LeftContent/SkillSet";
+import Address from "./LeftContent/Address";
+
 function LeftContent() {
   return (
-    <div className="LeftContent">
-      <h1>L</h1>
+    <div className="maincontent-left">
+      <div className="maincontent-left-wrapper">
+        <Address />
+        <SkillSet />
+      </div>
     </div>
   );
 }

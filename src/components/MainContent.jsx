@@ -3,9 +3,9 @@ import RightContent from "./MainContent/RightContent";
 
 function MainContent() {
   return (
-    <div className="maincontent">
-      <div className="leftcontent"></div>
-      <div className="rightcontent"></div>
+    <div className="maincontent-wrapper">
+      <LeftContent />
+      <RightContent />
     </div>
   );
 }
