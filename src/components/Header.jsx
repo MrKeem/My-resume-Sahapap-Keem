@@ -5,7 +5,7 @@ function Header() {
         <div className="header-wrapper">
           <div className="cycle-ring">
             <div className="my-image">
-              <img src="src\images\My-pic (2).jpg" />
+              <img src="\images\My-pic (2).jpg" />
               <h2>
                 Passionate About Tech, Aspiring
                 <hr />

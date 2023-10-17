@@ -20,7 +20,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <div className="icon">
-                <img src="src\images\linkedin.svg" className="icon-img" />
+                <img src="\images\linkedin.svg" className="icon-img" />
               </div>
             </a>
 
@@ -31,7 +31,7 @@ function Footer() {
             >
               <div className="icon">
                 <img
-                  src="src\images\github-svgrepo-com.svg"
+                  src="\images\github-svgrepo-com.svg"
                   className="icon-img"
                 />
               </div>

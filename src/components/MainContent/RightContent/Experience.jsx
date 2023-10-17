@@ -140,11 +140,11 @@ function Experience() {
           <div className="image-wrapper">
             {imageId === 1 ? (
               <div className="image-area">
-                <img src="src\images\experience\Experience1.jpg" />
+                <img src="\images\experience\Experience1.jpg" />
               </div>
             ) : imageId === 2 ? (
               <div className="image-area">
-                <img src="src\images\experience\Experience2.jpg" />
+                <img src="\images\experience\Experience2.jpg" />
               </div>
             ) : (
               ""
@@ -213,11 +213,11 @@ export default Experience;
           <div className="image-wrapper">
             {imageId === 1 ? (
               <div className="image-area">
-                <img src="src\images\experience\Experience1.jpg" />
+                <img src="\images\experience\Experience1.jpg" />
               </div>
             ) : imageId === 2 ? (
               <div className="image-area">
-                <img src="src\images\experience\Experience2.jpg" />
+                <img src="\images\experience\Experience2.jpg" />
               </div>
             ) : (
               ""
