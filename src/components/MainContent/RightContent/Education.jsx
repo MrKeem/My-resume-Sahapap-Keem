@@ -61,7 +61,7 @@ function Education() {
               Bachelor of Engineering In Electrical Engineering <br />
               —King Mongkut's Institute of Technology Ladkrabang
             </p>
-            <p>Graduated 2022</p>
+            <p className="maincontent-times">Graduated 2022</p>
           </div>
 
           <div className="maincontent-detail">
@@ -79,7 +79,7 @@ function Education() {
                   Full Stack JavaScript Developer Bootcamp <br />
                   —TechUp
                 </p>
-                <p>Jun.2023 - Oct.2023</p>
+                <p className="maincontent-times">Jun.2023 - Oct.2023</p>
               </div>
             </div>
           ) : (

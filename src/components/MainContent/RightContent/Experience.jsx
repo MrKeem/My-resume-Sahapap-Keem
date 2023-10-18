@@ -83,7 +83,7 @@ function Experience() {
             <p className="maincontent-secondary">
               Test Engineer - Delta Electronics (Thailand) PCL.
             </p>
-            <p>Aug.2022 - May.2023</p>
+            <p className="maincontent-times">Aug.2022 - May.2023</p>
           </div>
 
           {isTargeted ? (

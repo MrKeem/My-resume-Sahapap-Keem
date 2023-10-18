@@ -9,4 +9,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  font-size: calc(40.45% + 1vmin); /*51.9% + 0.8vmin*/
 }
