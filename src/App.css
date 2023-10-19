@@ -627,16 +627,16 @@ animation: skew-name-text 1s forwards normal;
 @keyframes change-image {
   0%,
   100% {
-    background-image: url("/public/images/address/address1.png");
+    background-image: url("./images/address/address1.png");
   }
   25% {
-    background-image: url("/public/images/address/address2.png");
+    background-image: url("./images/address/address2.png");
   }
   50% {
-    background-image: url("/public/images/address/address3.png");
+    background-image: url("./images/address/address3.png");
   }
   75% {
-    background-image: url("/public/images/address/address4.png");
+    background-image: url("./images/address/address4.png");
   }
 }
 
