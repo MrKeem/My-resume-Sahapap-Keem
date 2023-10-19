@@ -1506,8 +1506,8 @@ li {
     }
     100% {
       background: hsl(36, 20%, 95%);
-      left: -15%;
-      width: 91.95vw;
+      left: -23%;
+      width: 97vw;
       height: 110%;
     }
   }
@@ -1527,9 +1527,8 @@ li {
     50% {
     }
     100% {
-      left: -15%;
-
-      width: 91.95vw;
+      left: -23%;
+      width: 97vw;
       height: 60vh;
 
       background: hsl(36, 20%, 95%);
