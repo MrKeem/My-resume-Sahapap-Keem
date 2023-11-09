@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+
+import Portfolio from "./MainContent/Portfolio";
+
 import Address from "./MainContent/LeftContent/Address";
 import Optional from "./MainContent/LeftContent/Optional";
 import SkillSet from "./MainContent/LeftContent/SkillSet";
@@ -100,6 +103,7 @@ const MainContent = () => {
             <Education />
           </div>
         </div>
+        <Portfolio />
       </div>
     </>
   );

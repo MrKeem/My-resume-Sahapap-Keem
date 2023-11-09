@@ -1171,6 +1171,35 @@ animation: skew-name-text 1s forwards normal;
   font-weight: 700;
 }
 
+/*PORTFOLIO*/
+.portfolio-wrapper {
+  margin: 0px 20%;
+  padding: 10px;
+  border-style: solid;
+  border-color: hsl(0, 0%, 100%);
+  border-width: 2px;
+}
+
+.portfolio-wrapper .maincontent-detail {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.portfolio-wrapper .maincontent-detail li {
+  display: flex;
+  flex-direction: row;
+}
+
+.portfolio-wrapper .maincontent-detail li a {
+  margin: auto 0px;
+  margin-right: 20px;
+  transition: all 0.5s;
+}
+
+.portfolio-wrapper .maincontent-detail li a:hover {
+  text-shadow: 1px 1px 2px hsla(185, 93%, 34%, 50%);
+}
+
 /*FOOTER*/
 .footer-triangle-container {
   width: 100%;
